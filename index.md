@@ -13,7 +13,6 @@
 ## Baltimore Canopy Cover Change: 2007 - 2015
 #### Below is a map displaying the city of Baltimore, MD and the changes in tree canopy cover throughout the city. There are many areas with noticeable change, either through a gain or loss of canop cover, and other large areas that have had no change. These changes, or lack thereof, are a result of redlining, with has led to systemic divisions between neighborhoods in Baltimore, and the access they have to green spaces. 
 [Baltimore City Canopy Cover Change](/project2_page)
-
 [<img src="images/Bmorecity_UrbanTreeCanopychange.png"/>](/project2_page)
 
 ---
