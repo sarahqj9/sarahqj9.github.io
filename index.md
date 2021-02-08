@@ -14,7 +14,7 @@
 #### The image displays all colleges and universities in Maryland with a food pantry available to students, in comparison to census tracts in Maryland that are at 200% of the Federal Poverty Level. This means that these census tract areas have an average household income that is only 2X above the Federal Poverty Level, and may experience poverty, food, housing, and basic needs insecurity. 
 [Colleges with Food Pantries vs. Federal Poverty Level](/federal_page)
 
-<img src="images/povertylevel.png"/>
+[<img src="images/povertylevel.png"/>]
 
 ---
 ## Colleges with Food Pantries within 10 Miles of Federal Poverty Level Areas
