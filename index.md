@@ -7,7 +7,7 @@
 #### The image displays all colleges and universities in Maryland with a food pantry available to students, in comparison to food insecurity rates by county. This allows us to draw a connection between the individual food insecurity rates of counties, and possible reasons why colleges may have chosen to provide a food pantry, as it is a need of their students and staff that must be met.  
 [Colleges with Food Pantries vs. MD County Food Insecurity](/sample_page)
 
-<img src="images/pantriesfoodinsecurity.png"/>
+[<img src="images/pantriesfoodinsecurity.png"/>]
 
 https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/pantriesfoodinsecurity.png
 [![FoodInsecurity]("images/pantriesfoodinsecurity.png")](https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/pantriesfoodinsecurity.png)
@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/pant
 #### The image displays all colleges and universities in Maryland with a food pantry available to students, in comparison to census tracts in Maryland that are at 200% of the Federal Poverty Level. This means that these census tract areas have an average household income that is only 2X above the Federal Poverty Level, and may experience poverty, food, housing, and basic needs insecurity. 
 [Colleges with Food Pantries vs. Federal Poverty Level](/federal_page)
 
-<img src="images/povertylevel.png"/>
+[<img src="images/povertylevel.png"/>]
 
 https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/povertylevel.png
 [![PovertyLevel]("images/povertylevel.png")](https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/povertylevel.png)
