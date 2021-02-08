@@ -2,18 +2,18 @@
 
 ---
 
-### Category Name 1 
+### College Pantries within Maryland: A Study on Food Insecurity within College Students 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Colleges with Food Pantries vs. MD County Food Insecurity](/sample_page)
+<img src="images/pantriesfoodinsecurity.png"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Colleges with Food Pantries vs. Federal Poverty Level](/pdf/sample_presentation.pdf)
+<img src="images/povertylevel.png"/>
+
+---
+[Colleges with Food Pantries within 10 Miles of Federal Poverty Level](http://example.com/)
+<img src="images/withinpovertylevel.png"/>
 
 ---
 
