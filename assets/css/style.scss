@@ -22,11 +22,15 @@ body {
  font-size: 105%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
  letter-spacing: -0.08em;
 }
-h1, h2, h3, h5, h6 {
+h1, h3, h5, h6 {
  color:#9F585F
+}
+
+h2 {
+ color:#64373b
 }
 
 header h1 a {
