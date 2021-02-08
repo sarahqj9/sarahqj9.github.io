@@ -8,7 +8,6 @@
 [Colleges with Food Pantries vs. MD County Food Insecurity](/sample_page)
 
 [<img src="images/pantriesfoodinsecurity.png"/>]
-
 https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/pantriesfoodinsecurity.png
 [![FoodInsecurity]("images/pantriesfoodinsecurity.png")](https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/pantriesfoodinsecurity.png)
 ---
@@ -17,7 +16,6 @@ https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/pant
 [Colleges with Food Pantries vs. Federal Poverty Level](/federal_page)
 
 [<img src="images/povertylevel.png"/>]
-
 https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/povertylevel.png
 [![PovertyLevel]("images/povertylevel.png")](https://raw.githubusercontent.com/sarahqj9/sarahqj9.github.io/master/images/povertylevel.png)
 ---
