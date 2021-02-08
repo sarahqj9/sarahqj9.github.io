@@ -1,31 +1,26 @@
-## This can be your internal website page / project page
+## Food Insecurity among College Students in Maryland
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** In collaboration with Retriever Essentials, I am developing an ongoing, GIS centered, research project on how food insecurity affects college students in Maryland. With the rise of the COVID-19 pandemic, many people have found themselves in need of additional resources due to loss of income, increased healthcare costs, and other unexpected expenses as a result. We hope to study how college food pantries can alleviate hardships for students, alongside creating a live webmap that can help all Maryland college students easily connect to resources near and on their campuses. 
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Food Insecurity Rates in Maryland
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+One of many developed maps in this entire project, this map highlights the food insecurity rates, by county, in Maryland contrasted against all colleges within Maryland that provide food resources for their students and staff. In order to create this image, I had to use opensource data from the Maryland that gave me most of the data needed for the maps I have developed. To develop the maps, I used ESRI ArcMap as it allows for an easy transition to an online format for the creation of the future webmap. As the project is ongoing, the research has not been completed, but the work is going forward!
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### 2. Additional Maps
 
-### 2. Assess assumptions on which statistical inference will be based
+## Colleges with Food Pantries vs. Federal Poverty Level Areas
+#### The image displays all colleges and universities in Maryland with a food pantry available to students, in comparison to census tracts in Maryland that are at 200% of the Federal Poverty Level. This means that these census tract areas have an average household income that is only 2X above the Federal Poverty Level, and may experience poverty, food, housing, and basic needs insecurity. 
+[Colleges with Food Pantries vs. Federal Poverty Level]
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<img src="images/povertylevel.png"/>
 
-### 3. Support the selection of appropriate statistical tools and techniques
+---
+## Colleges with Food Pantries within 10 Miles of Federal Poverty Level Areas
+#### The image displays all colleges and universities in Maryland with a food pantry available to students that are within a 10 mile radius of areas that are at 200% of the Federal Poverty Level. A lot of campuses, specifically community colleges, have commuter students. We wanted to represent universities and colleges that reflect that, and if they are near a Federal Poverty Level, that may contribute to the need for a food pantry on campus. 
+[Colleges with Food Pantries within 10 Miles of Federal Poverty Level]
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/withinpovertylevel.png"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
