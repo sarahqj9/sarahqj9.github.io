@@ -18,8 +18,8 @@
 ---
 ## Access to Food Locations Compared to Social Factors
 #### Baltimore City neighborhoods have a long history of racial segregation that has shaped the way the neighborhoods have developed and formed throughout time. Dramatic disparities exist between predominantly Black vs. predominantly white neighborhoods concerning access to healthy and culturally appripriate food options within their neighborhoods. The map below displays a portion of the disparities that exist within Baltimore.
-[Food_Accessibility](/food_access/index)
-[<img src="images/food_locations.jpg"/>](/food_access/index) 
+[Food Accessibility](/food_access/index)
+[<img src="images/food_locations.png"/>](/food_access/index) 
 
 
 ---
