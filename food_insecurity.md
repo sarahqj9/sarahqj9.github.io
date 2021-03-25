@@ -17,10 +17,10 @@ ArcGIS Online, MD iMAP: Maryland Education Facilities - Higher Education (Public
 Johns Hopkins University; Center for a Livable Future, % Food Insecure 2017, 2017. https://data-clf.hub.arcgis.com/datasets/1d070188731c4e1eba4eb486619edfd1_449?geometry=-80.757%2C37.310%2C-73.780%2C40.306
 
 Johns Hopkins University; Center for a Livable Future, 200% Federal Poverty Level 2014-2018, 2018. https://data-clf.hub.arcgis.com/datasets/16cf6aa531bf46f79384da68b56b7175_457?geometry=-80.767%2C37.331%2C-73.791%2C40.325
-### Food Insecurity Rates in Maryland
 
-One of many developed maps in this entire project, this map highlights the food insecurity rates, by county, in Maryland contrasted against all colleges within Maryland that provide food resources for their students and staff. In order to create this image, I had to use opensource data from the Maryland that gave me most of the data needed for the maps I have developed. To develop the maps, I used ESRI ArcMap as it allows for an easy transition to an online format for the creation of the future webmap. As the project is ongoing, the research has not been completed, but the work is going forward!
-<img src="images/pantriesfoodinsecurity.png"/>
+### Colleges and Institutions in Maryland 
+When considering institution type, and how to best categorize the colleges to better understand the connections between being a student and being food insecure, we found it best to consider schools in two aspects: are they a four-year or two-year institution, and are they private or public? These categories are imoprtant to consider, as certain insitutions will better service and be accessible to different types of populations. According to the National Center for Education Statistics, in the United States between the 2007-08 and 2017-18 educational years, prices for undergraduate degrees at public insitutions rose by 31% with an average cost of $20,000 a year, and cost of tuition rose 23% with an average cost of $40,000 a year. Another study done by Georgetown University found that roughly 65% of people in the workforce have obtained some postsecondary education, with Bachelor's degree holders earning 57% of all wages. People are choose o get degrees because of better wages, benefits, and increased opportunities for employment, 
+<img src="images/2yearv4year.png"/>
 
 
 
