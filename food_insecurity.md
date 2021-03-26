@@ -38,7 +38,7 @@
 
 <img src="images/foodpantrymap.png"/>
 
-  The map above illustrates which campuses provide food pantries or food resources to their students and staff. 38% of all institutions 
+  The map above illustrates which campuses provide food pantries or food resources to their students and staff. Approximately 62% of all Maryland institutions provide a food pantry, while 38% of all institutions do not currently provide a food pantry. All sixteen public, 2-year institutions provided a food pantry, making up 49% of all institutions with food pantries. 
 
 
 ### Colleges with Food Pantries vs. Federal Poverty Level Areas
@@ -49,7 +49,10 @@ The image displays all colleges and universities in Maryland with a food pantry 
 
 <img src="images/food_insecure.png"/>
 
-<img src="images/qgis2web_2021_03_24-16_54_41_166177/index.html"/>
+<img src="https://sarahqj9.github.io/images/qgis2web_2021_03_24-16_54_41_166177/index.html"/>
+
+          
+
 
 
 
