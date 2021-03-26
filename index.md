@@ -3,10 +3,10 @@
 ---
 
 # Projects
-## [Food Insecurity Among College Students in Maryland](/federalpovertylevels)
+## [Food Insecurity Among College Students in Maryland](/food_insecurity)
 #### The image displays all colleges and universities in Maryland with a food pantry available to students, in comparison to food insecurity rates by county. This allows us to draw a connection between the individual food insecurity rates of counties, and possible reasons why colleges may have chosen to provide a food pantry, as it is a need of their students and staff that must be met.  
 
-[<img src="images/federalpovertylevels.png"/>](/federalpovertylevels)
+[<img src="images/federalpovertylevels.png"/>](/food_insecurity)
 
 ---
 ## [Baltimore City Canopy Cover Change](/project2/index)
