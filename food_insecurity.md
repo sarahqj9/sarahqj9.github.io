@@ -40,13 +40,17 @@
 
   The map above illustrates which campuses provide food pantries or food resources to their students and staff. 38% of all institutions 
 
-### Colleges with Food Pantries vs. Federal Poverty Level Areas
 
-<img src="images/foodpantrymap.png"/>
+### Colleges with Food Pantries vs. Federal Poverty Level Areas
 
 The image displays all colleges and universities in Maryland with a food pantry available to students, alongisde a 5 and 10 mile radius of census tracts that are at 200% of the Federal Poverty Level. This means that these census tract areas have an average household income that is only 2 times above the Federal Poverty Level, and are at a high risk of experiencing poverty, food, housing, and basic needs insecurity. 
 
 <img src="images/federalpovertylevels.png"/>
+
+<img src="images/food_insecure.png"/>
+
+<img src="images/qgis2web_2021_03_24-16_54_41_166177/index.html"/>
+
 
 
 
