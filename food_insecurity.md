@@ -42,11 +42,13 @@ The next step of our analysis involved surveying the operators of the food pantr
 ## RESEARCH OUTPUTS
 
 ### Colleges and Institutions in Maryland: How does college intersect with food insecurity?
+
   When considering institution type, and how to best categorize the colleges to better understand the connections between being a student and being food insecure, we found it best to consider schools in two aspects: are they a four-year or two-year institution, and are they private or public? These categories are important to consider, as certain institutions will better service and be accessible to different types of populations. According to the [National Center for Education Statistics](https://nces.ed.gov/fastfacts/display.asp?id=76), in the United States between the 2007-08 and 2017-18 educational years, prices for undergraduate degrees at public institutions rose by 31% with an average cost of $20,000 a year, and cost of tuition rose 23% with an average cost of $40,000 a year. Another study done by [Georgetown University](https://cew.georgetown.edu/cew-reports/americas-divided-recovery/) found that roughly 65% of people in the workforce have obtained some postsecondary education, with Bachelor's degree holders earning 57% of all wages. People choose to get degrees because of better wages, benefits, and increased opportunities for employment. However, the cost is great, especially when moving beyond two-year, public universities where the average cost of tuition is approximately $5,000 a year. 
   
   The cost of tuition often dictates which type of student, depending on their wealth and resources, will be able to afford pursuing a postsecondary education. Considering how various socioeconomic factors play into the services and aid that institutions provide their students is crucial when discussing how stress from college courses and paying for tuition intersect with stressors for those experiencing poverty or food insecurity and the effects it can have on a person's physical, emotional, and mental health.   
  
  ### Colleges and Institutions in Maryland: Map Breakdown  
+ 
  There are 53 institutions and colleges represented in these maps, although several have various campuses and may be displayed in the map as well. There are 13 public, four-year universities, 23 private, four-year universities, 16 two-year public colleges, and one two-year private college.
 
 <img src="images/publicvprivate.png"/>
