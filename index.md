@@ -16,7 +16,7 @@
 
 ---
 ## [Effects of Poverty on Undergraduate and Graduate Enrollment in Maryland Over Time](/lab_6/lab_6.html)
-#### Baltimore City neighborhoods have a long history of racial segregation that has shaped the way the neighborhoods have developed and formed throughout time. Dramatic disparities exist between predominantly Black vs. predominantly white neighborhoods concerning access to healthy and culturally appripriate food options within their neighborhoods. The map below displays a portion of the disparities that exist within Baltimore.
+#### Analysis on the changes between the years of 2015 and 2019 on the total number of enrolled undergraduate and graduate students in Maryland and the percentage of those students who were at or below the federal poverty level during the same period.
 
 [<img src="images/lab6bivariatemap.png"/>](/lab_6/lab_6.html) 
 
