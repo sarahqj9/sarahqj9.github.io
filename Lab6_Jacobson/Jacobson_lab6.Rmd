@@ -1,0 +1,103 @@
+---
+title: "R Notebook"
+subtitle: Lab 6
+output: html_notebook
+author: Sarah Jacobson (sarahj3@umbc.edu)
+date: 2021/04/10
+---
+#Census Data
+Collecting Census data on Maryland at the census tract level, which displays the poverty status of those enrolled in College Undergraduate Years and in Graduate or Professional schools, ages 3 or over between the years 2014 and 2019. I also am downloading census data I used this data so that I could better illustrate areas already experiencing poverty, crossed with data on which MD colleges and universities provide food and basic needs resources to aid their students, and determine if there is any correlation to areas in MD already experiencing poverty. 
+
+##Setup
+Load and install packages needed. Those being mapview, tidyverse, tidycensus, sf, ggplot2.
+To use script, sign up for your own census API key.  (https://api.census.gov/data/key_signup.html)
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r setup}
+# packages
+library(tidycensus)
+library(tidyverse)
+library(sf)
+library(ggplot2)
+
+# settings for tidycensus
+options(tigris_class = "sf")
+options(tigris_use_cache = TRUE)
+census_api_key("8fd72e96e706da695f419355d7d04d1c88a55a84")
+```
+#Get Census Data 
+```{r Total Enrolled}
+# This gets the 2015-2019 population, race+eth, housing units, and median household income from the ACS
+#Include variables 
+
+# md_college_2019 & 2015 retrieves data on total number of students in MD enrolled in undergrad or graduate school at the census tract level.
+md_college_2019 <- get_acs(geography = "tract", 
+     variables = c("total_pop" = "B14001_001",
+                   "total_enrolled" = "B14001_002", # Total population over 3 who are enrolled in school
+                   "undergrad_pop" = "B14001_008", # Total enrolled in undergraduate
+                   "grad_pop" = "B14001_009" # Total enrolled in graduate or professional
+                   ), 
+     year = 2019,
+     survey = "acs5",
+     state = c(24), 
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+md_college_2019 <- st_write(md_college_2019,("C:/Users/poppa/Documents/UMBC_School_Stuff/GES486/Lab6/RStudioProducts/md_college_2019.shp")) # download the shapefile with the data
+
+md_college_2015 <- get_acs(geography = "tract", 
+     variables = c("total_pop" = "B14001_001",
+                   "total_enrolled" = "B14001_002", # Total population over 3 who are enrolled in school
+                   "undergrad_pop" = "B14001_008", # Total enrolled in undergraduate
+                   "grad_pop" = "B14001_009" # Total enrolled in graduate or professional
+                   ), 
+     year = 2015,
+     survey = "acs5",
+     state = c(24), 
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+md_college_2015 <- st_write(md_college_2015,("C:/Users/poppa/Documents/UMBC_School_Stuff/GES486/Lab6/RStudioProducts/md_college_2015.shp")) # download the shapefile with the data
+```
+
+
+#Out of total enrolled, number of grad and undergrad students who are currently at or below the federal poverty level by census tract. 
+```{r Poverty Enrolled}
+mdpoverty_2019 <- get_acs(geography = "tract", 
+     variables = c("total_level" = "B14006_001", # Total population over 3 whose poverty status is determined
+                   "total_below" = "B14006_002", # Total population at or below poverty level
+                   "undergrad_below" = "B14006_009", # Total enrolled in college undergraduate
+                   "grad_below" = "B14006_010" # tota enrolled in grad or prof school 
+                   ), 
+     year = 2019,
+     survey = "acs5",
+     state = c(24), 
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+mdpoverty_2019 <- st_write(mdpoverty_2019,("C:/Users/poppa/Documents/UMBC_School_Stuff/GES486/Lab6/RStudioProducts/mdpoverty_2019.shp"))
+
+# This gets the 2011-2015 population, race+eth, housing units, and median household income from the ACS
+
+mdpoverty_2015 <- get_acs(geography = "tract", 
+     variables = c("total_level" = "B14006_001", # Total population over 3 whose poverty status is determined
+                   "total_below" = "B14006_002", # Total population at or below poverty level
+                   "undergrad_below" = "B14006_009", # Total enrolled in college undergraduate
+                   "grad_below" = "B14006_010" # tota enrolled in grad or prof school 
+                   ), 
+     year = 2015,
+     survey = "acs5",
+     state = c(24), 
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+mdpoverty_2015 <- st_write(mdpoverty_2015,("C:/Users/poppa/Documents/UMBC_School_Stuff/GES486/Lab6/RStudioProducts/mdpoverty_2015.shp"))
+
+names(mdpoverty_2015)
+```
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be save
