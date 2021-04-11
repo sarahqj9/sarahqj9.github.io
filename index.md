@@ -15,10 +15,10 @@
 [<img src="images/Bmorecity_UrbanTreeCanopychange.png"/>](/project2/index)
 
 ---
-## [Effects of Poverty on Undergraduate and Graduate Enrollment in Maryland Over Time](/lab_6/lab_6.html)
+## [Effects of Poverty on Undergraduate and Graduate Enrollment in Maryland Over Time](/Lab6_Jacobson/index.md)
 #### Analysis on the changes between the years of 2015 and 2019 on the total number of enrolled undergraduate and graduate students in Maryland and the percentage of those students who were at or below the federal poverty level during the same period.
 
-[<img src="images/lab6bivariatemap.png"/>](/lab_6/lab_6.html) 
+[<img src="images/lab6bivariatemap.png"/>](/Lab6_Jacobson/index.md) 
 
 
 ---
