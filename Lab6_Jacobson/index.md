@@ -35,7 +35,7 @@ Beginning with the total number of college and undergraduate students enrolled i
 > 
 >         variables = c("total_pop" = "B14001_001",
 > 
->                       "total_enrolled" = "B14001_002", # Total population over 3 who are >enrolled in school
+>                       "total_enrolled" = "B14001_002", # Total population over 3 who are enrolled in school
 >                   
 >                       "undergrad_pop" = "B14001_008", # Total enrolled in undergraduate
 >                   
@@ -51,10 +51,12 @@ Beginning with the total number of college and undergraduate students enrolled i
 >     
 >         output = "wide") # need this
 >     
+
 Once the shapefiles have been downloaded for the total enrollment for 2015, and the number of undergraduate and graduate students who are at or below the federal poverty level for years 2015 and 2019 at a county level, we must guide the shapefile to the appropriate folder to access it. It is important when working with several datasets and shapefiles, that we label and organize folders and paths clearly. Once the folders are prepared, use **st_write** to download the shapefile with the data. Our main folder will be titled Lab6, with no spaces to keep the path from breaking. These datasets will then further be filed under "RStudioProducts/RawData" to indicate that they were retrieved through RStudio and are raw data shapefiles from the notebook. 
 
 >     md_college_2019 <- st_write(md_college_2019,("C:/Users/poppa/Documents/UMBC_School_Stuff/GES486/Lab6/RStudioProducts/md_college_2019.shp")) # download the shapefile with the data
 >     
+
 After downloading that data to folder, you can save your code, and quit your RStudio Notebook, enetering QGIS.
 
 **Step 3: QGIS Statistical Analyses**
