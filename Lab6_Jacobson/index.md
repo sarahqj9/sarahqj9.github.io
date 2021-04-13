@@ -114,7 +114,7 @@ Use the map print layout to label your bivariate map legend and title your map f
 
 ### Results
 
-<img src="images/lab6bivariatemap.png"/>
+<img src="images/lab6bivariatepdf.pdf"/>
 
 Beginning in the lower left corner, a pale yellow indicates the counties that have experienced both a decrease in total # of undergraduate and graduate students enrolled, and a decrease in the percent of students that are at or below the federal poverty level. As the table extends to the right, it illustrates the counties that experience little to no change in the percent of students, and then all the way to the right is areas that experienced an increase. On the left, extending upward, the legend illustrates the total number of graduate and undergraduate students enrolled in Maryland. As the two sections begin to overlap, depending on the location of the square, we are able to identify counties that may be experiencing both an increase or decrease in either variable over time, and if done over more period of time, can allow us to draw a trend between the two variables. 
 
