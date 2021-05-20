@@ -70,15 +70,15 @@ The map below displays all colleges and universities in Maryland with a food pan
 
 <img src="images/Food_Insecurity/justfoodinsecurity.png"/>
 
+<img src="images/Food_Insecurity/PantryCount_PerCounty.png"/>
+
 <img src="images/Food_Insecurity/Presentation1.png"/>
 
 ### Interactive WebMap
 
 <img src="images/Food_Insecurity/JHUpantrysites.png"/>
 
-<img src="images/Food_Insecurity/JHUpantrysites.png"/>
-
-<img src="images/Food_Insecurity/PantryCount_PerCounty.png"/>
+<img src="images/Food_Insecurity/institutiontypes.png"/>
 
 [Colleges with Food Pantries and Food Resources](https://umbc-ges.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=413ce4d02e464320b20dcee1798c0879)
 
