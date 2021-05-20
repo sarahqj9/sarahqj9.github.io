@@ -66,11 +66,13 @@ The next step of our analysis involved surveying the operators of the food pantr
 
 ### Colleges with Food Pantries vs. Food Insecurity in Maryland
 
-The map below displays all colleges and universities in Maryland with a food pantry available to students, 
+This allows us to quantify the relationship that exists between the location of an institution and the demographics of the people nearest to them who are likely to attend those institutions and may be within the population in that county experiencing food insecurity. 
 
 <img src="images/Food_Insecurity/justfoodinsecurity.png"/>
+The map above illustrates the percent population of each county that experiences varying rates of Food Insecurity.
 
 <img src="images/Food_Insecurity/PantryCount_PerCounty.png"/>
+The second variable displayed is the number of institutions in MD that do have a food pantry.
 
 <img src="images/Food_Insecurity/Presentation1.png"/>
 
