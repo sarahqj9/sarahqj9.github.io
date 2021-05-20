@@ -51,30 +51,30 @@ The next step of our analysis involved surveying the operators of the food pantr
  
  There are 53 institutions and colleges represented in these maps, although several have various campuses and may be displayed in the map as well. There are 13 public, four-year universities, 23 private, four-year universities, 16 two-year public colleges, and one two-year private college.
 
-<img src="images/publicvprivate.png"/>
+<img src="images/Food_Insecurity/publicvprivate_urcad.png"/>
 
  There are 13 public, four-year universities, 23 private, four-year universities, 16 two-year public colleges, and one two-year private college. Private universities and colleges make up 45% of all MD higher education institutions, with public schools making up the other 55%. 
 
-<img src="images/2yearv4yearupdated.png"/>
+<img src="images/Food_Insecurity/2yearv4year_urcad.png"/>
 
   32% of institutions are two-year colleges, with four-year institutions making up the other 68%. Further analysis shows that 2% of institutions are both private, and two-year institutions, 30% are public, two-year institutions, 43% are private, four-year institutions, and 25% are public, four-year institutions. 
 
-<img src="images/foodpantrymap.png"/>
+<img src="images/Food_Insecurity/foodpantry_urcad.png"/>
 
   The map above illustrates which campuses provide food pantries or food resources to their students and staff. Approximately 62% of all Maryland institutions provide a food pantry, while 38% of all institutions do not currently provide a food pantry. All sixteen public, 2-year institutions provided a food pantry, making up 49% of all institutions with food pantries. Public, four-year universities make up one third of all universities with food pantries at 33%, and private, four-year universities make up 18%. Currently there are no private, two-year institutions that provide a food pantry. 
 
 
-### Colleges with Food Pantries vs. Federal Poverty Level Areas
+### Colleges with Food Pantries vs. Food Insecurity in Maryland
 
-The map below displays all colleges and universities in Maryland with a food pantry available to students, alongisde a 5 and 10 mile radius of census tracts that are at 200% of the Federal Poverty Level. This means that these census tract areas have an average household income that is only 2 times above the Federal Poverty Level, and are at a high risk of experiencing poverty, food, housing, and basic needs insecurity. 
+The map below displays all colleges and universities in Maryland with a food pantry available to students, 
 
-<img src="images/federalpovertylevels.png"/>
+<img src="images/Food_Insecurity/justfoodinsecurity.png"/>
 
-There are 29 institutions (34 campuses) out of 33, or 88%, that provide a food pantry that are within a 10 mile radius, and 24 institutions (29 campuses), or 73%, which are within the 5 mile radius of the 200% Federal Poverty Areas in Maryland. There are 4 institutions, 12% of all institutions with food pantries, that lie within a 200% Federal Poverty Level census tract.  
+<img src="images/Food_Insecurity/finalbivariate.png"/>
 
 ### Interactive WebMap
 
-[Colleges with Food Pantries and Food Resources](https://sarahqj9.github.io/pantryresource_map/qgis2web_2021_03_24-16_54_41_166177/pantryresource_map.html)
+[Colleges with Food Pantries and Food Resources](https://umbc-ges.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=413ce4d02e464320b20dcee1798c0879)
 
 
           
