@@ -3,16 +3,21 @@
 ---
 
 # Projects
-## [Food Insecurity Among College Students in Maryland](/food_insecurity)
-#### The image displays all colleges and universities in Maryland with a food pantry available to students, in comparison to food insecurity rates by county. This allows us to draw a connection between the individual food insecurity rates of counties, and possible reasons why colleges may have chosen to provide a food pantry, as it is a need of their students and staff that must be met.  
+## [Food Insecurity on Maryland College Campuses](/food_insecurity)
 
-[<img src="images/federalpovertylevels.png"/>](/food_insecurity)
+Current research states that approximately one-third of all students at two- and four- year institutions face food and housing insecurity while earning a degree. Through geospatial analysis on food and poverty rates in Maryland, my research illustrates the connection between MD food insecurity rates to which institutions, based on their location and institution type, are most likely to provide food resources to their students. 
+
+[<img src="images/Food_Insecurity/finalbivariate.png"/>](/food_insecurity)
+
+The maps on this site are just one part of a larger research project where I take a look at disparities between resources on different types of institutions, along with surveying campus food pantry directors on how their pantries run along with how the onset of the COVID-19 pandemic affected their ability to provide resources, how they had to adapt, and what their pantries look like now to continue to serve the needs of their community.  
+
+If you would like to learn more about this research, check out my [full presentation here!](https://voicethread.com/share/17404326/)
 
 ---
-## [Baltimore City Canopy Cover Change](/project2/index)
-#### Below is a map displaying the city of Baltimore, MD and the changes in tree canopy cover throughout the city. There are many areas with noticeable change, either through a gain or loss of canop cover, and other large areas that have had no change. These changes, or lack thereof, are a result of redlining, with has led to systemic divisions between neighborhoods in Baltimore, and the access they have to green spaces. 
+## [Food Insecurity Map Breakdown](/project2/index)
+#### This page walkthroughs the steps and processes required to complete the map products utilized in my [Food Insecurity On Maryland College Campuses](/food_insecurity) project that focuses on addressing the issue of increasing rates of food insecurity among college students.
 
-[<img src="images/Bmorecity_UrbanTreeCanopychange.png"/>](/project2/index)
+[<img src="images/Food_Insecurity/onlinemap.JPG"/>](/project2/index)
 
 ---
 ## [Effects of Poverty on Undergraduate and Graduate Enrollment in Maryland Over Time](/Lab6_Jacobson/index.md)
