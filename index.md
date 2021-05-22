@@ -19,22 +19,7 @@ If you would like to learn more about this research, check out my [full presenta
 
 [<img src="images/Food_Insecurity/onlinemap.JPG"/>](/project2/index)
 
----
-## [Effects of Poverty on Undergraduate and Graduate Enrollment in Maryland Over Time](/Lab6_Jacobson/index.md)
-#### Analysis on the changes between the years of 2015 and 2019 on the total number of enrolled undergraduate and graduate students in Maryland and the percentage of those students who were at or below the federal poverty level during the same period.
 
-[<img src="images/lab6bivariatemap.png"/>](/Lab6_Jacobson/index.md) 
-
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
