@@ -18,8 +18,6 @@
 
 [Johns Hopkins University; Center for a Livable Future, % Food Insecure 2017](https://data-clf.hub.arcgis.com/datasets/1d070188731c4e1eba4eb486619edfd1_449?geometry=-80.757%2C37.310%2C-73.780%2C40.306)
 
-[Johns Hopkins University; Center for a Livable Future, 200% Federal Poverty Level 2014-2018](https://data-clf.hub.arcgis.com/datasets/16cf6aa531bf46f79384da68b56b7175_457?geometry=-80.767%2C37.331%2C-73.791%2C40.325)
-
 ## METHODS & TRANSFORMATIONS
 
 Methods for completing this study involved secondary data collection of existing datasets and research on institutions in MD.  Working with three peers, primary data was collected on college institutions in Maryland to find if they did have a pantry, and if so finding a point of contact and resource information for  those food pantries. I then created a survey that gathered information on pantry best practices, which are the primary and “preferred” methods that individual food pantries utilize to operate,and the impacts of COVID-19 on their pantry. An initial analysis of the primary data collected was done to create a statistical breakdown of the institution types surveyed. Geospatial analysis was then conducted, a form of data analysis that maps data through the combination of geographic data to spatial, temporal, or demographic data. The text to the right lists a few of the basic operations and steps it took to take the original MD institution datasets, or shapefiles as they are referred to in GIS, and combining and updating them to reflect the current accredited colleges and universities in md, along with adding the primary data collected on food pantry sites. The geospatial analysis portion of this project is still ongoing. We then completed the survey analysis, creating a series of graphics and statistical analysis that illustrate the services provided by food pantries, and the impacts of COVID-19 on their operations. 
@@ -29,9 +27,7 @@ Methods for completing this study involved secondary data collection of existing
 * Append data food pantry availability on campus and resource websites to CSV sheet.
 * Add updated CSV to QGIS, exporting it to a shapefile
 * From shapefile points, select by attributes to create maps specific to type of insitution
-* Buffer Zones for Federal Poverty Areas
 * Field Calculator for statistical analyses on percentages and statistical analysis
-* Select by location on varying radiuses to identify which campuses of which institutions fall near a Federal Poverty Level
 
 ## ANALYSIS
 
@@ -70,27 +66,20 @@ The next step of our analysis involved surveying the operators of the food pantr
 
 This allows us to quantify the relationship that exists between the location of an institution and the demographics of the people nearest to them who are likely to attend those institutions and may be within the population in that county experiencing food insecurity. 
 
-<img src="images/Food_Insecurity/justfoodinsecurity.png"/>
-The map above illustrates the percent population of each county that experiences varying rates of Food Insecurity.
-
-<img src="images/Food_Insecurity/PantryCount_PerCounty.png"/>
-The second variable displayed is the number of institutions in MD that do have a food pantry.
-
 <img src="images/Food_Insecurity/Presentation1.png"/>
 
 ### Interactive WebMap
 
 To aid graduate and undergraduate college students in MD, I have created an interactive, online webmap that allows students to search for their institution, and if it does have a pantry, clicking on the name will highlight the symbol representing their institution. once the symbol is selected a pop-up box will appear, Listing the institution name, the name of Food Pantry Program, and the website link to the food pantry site. This site is also still being developed, and additional information regarding who has access to the pantry, and how clients gain access will be provided, so clients can easily identify what resources are available to them on their campus, and how to access it. The link is listed in the comment section so feel free to explore and share the site. 
 
-<img src="images/Food_Insecurity/JHUpantrysites.png"/>
-
-<img src="images/Food_Insecurity/institutiontypes.png"/>
-
 ### **[Colleges with Food Pantries and Food Resources](https://umbc-ges.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=413ce4d02e464320b20dcee1798c0879)**
 
 [<img src="images/Food_Insecurity/onlinemap.JPG"/>](https://umbc-ges.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=413ce4d02e464320b20dcee1798c0879)
-          
-
+   
+   
+   
+   
+### **Want to see how I did it all? [Check this page out for a detailed breakdown.](https://sarahqj9.github.io/project2/index)**
 
 
 
