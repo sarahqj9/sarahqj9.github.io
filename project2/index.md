@@ -2,7 +2,9 @@
 
 # Food Insecurity Map Breakdown
 
-This page walkthroughs the steps and processes required to complete the map products utilized in my ["Food Insecurity On Maryland College Campuses"]((https://sarahqj9.github.io/food_insecurity), that focuses on addressing the increasing rates of students who experience food insecurity at one point their educational career. I am a Maryland resident, and wanted to address this issue on a local scale, so focused on the institutions within my state, and what food resources or pantries they may have available on their campus, what those pantries look like and how they operate. The maps on that site are just one part of a larger research project where I take a look at disparities between resources on different types of institutions, along with surveying campus food pantry directors on how their pantries run along with how the onset of the COVID-19 pandemic affected their ability to provide resources, how they had to adapt, and what their pantries look like now to continue to serve the needs of their community.  
+This page walkthroughs the steps and processes required to complete the map products utilized in my [Food Insecurity On Maryland College Campuses](https://sarahqj9.github.io/food_insecurity), that focuses on addressing the increasing rates of students who experience food insecurity at one point their educational career. I am a Maryland resident, and wanted to address this issue on a local scale, so focused on the institutions within my state, and what food resources or pantries they may have available on their campus, what those pantries look like and how they operate. The maps on that site are just one part of a larger research project where I take a look at disparities between resources on different types of institutions, along with surveying campus food pantry directors on how their pantries run along with how the onset of the COVID-19 pandemic affected their ability to provide resources, how they had to adapt, and what their pantries look like now to continue to serve the needs of their community.  
+
+If you would like to learn more about this research, check out my [full presentation here!](https://voicethread.com/share/17404326/)
 
 ## Gathering the Data 
 
@@ -44,6 +46,8 @@ Within *"all_schoolsexcel"*, we created four fields labeled:
 
 After the reserach had been completed, and the Excel sheet filled out, close the file and enter QGIS. Add the .CSV file as a Comma Delimited Layer. Under *Layers* right-click the layer and **export** the file into an **ESRI Shapefile**. That created the main dataset that will be utilized for our geospatial and statistical analyses. 
 
+**Notice:** This data is recent as of Marcb of 2021. Updates occur once per academic year, in the Spring semester but this is subject to change. If you would like access to this data we are more than happy to share it with you privately, however the data is relatively raw so it will be under continued development to improve the database. If you have any questions you may contact retrieveressentials@umbc.edu. 
+
 ## Creating the Maps
 
 Now that we have all of our necessary data, we can add the other layers we need. Bring in the *"Maryland Physical Boundaries"* Shapefile as a base layer.
@@ -60,25 +64,60 @@ Change the *Value* to *"Pantry"* and categorize based on the **Y** or **N** resp
 
 <img src="images/Food_Insecurity/foodpantry_urcad.PNG"/>
 
+**Symbology:** These are relatively simple maps, so play around with the design, and make something that you are happy with! You can use sites like [**COlorBrewer 2.0**](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) to get help with picking a color palette.
+
 ### Bivariate Map: Food Insecurity Rates Compared to Number of Campus Food Pantries
 
 Utilizing a bivariate map allows for the direct comparison of two different variables. Since we are hoping to find any trends between existing food insecurity rates to the amount of food resources available to identify areas that may be underserved. 
 
-Following this [BNHR Bivariate choropleth maps in QGIS
+Following this [BNHR Bivariate choropleth maps in QGIS](https://bnhr.xyz/2019/09/15/bivariate-choropleths-in-qgis.html)
 
 Add the *"% Food Insecure 2017"* shapefile layer and symbolize the percent values. I chose to use five classes here, but for the purposes of bivariate mapping, we are going to use 3 classes. Utilize what breaks work best for you, however I would ensure that the data you are representing does not show a bias. 
 
+The map below illustrates the percent population of each county that experiences varying rates of Food Insecurity. 
+
 <img src="images/Food_Insecurity/justfoodinsecurity.PNG"/>
 
+I utilized Natural Jenks in this image which is seen as the the best way to select as its implies that the ["ranges where like areas are grouped together"] while minimalizing ["the variation within each range, so the areas within each range are as close as possible in value to each other."](https://medium.com/analytics-vidhya/jenks-natural-breaks-best-range-finder-algorithm-8d1907192051) However when using this method it is important to avoid setting values manually to just create something that looks good, rather than what the data should be presented as based on its algorithm. 
 
-The map above illustrates the percent population of each county that experiences varying rates of Food Insecurity.
+### Points to Polygons
+
+When creating a bivariate map in QGIS I needed to have two polygon shapefiles, not points. Selecting the **Vector -> Analysis Tools -> Count Points in Polygon** which will give us a shapefile layer that we can then use for the bivariate map. The **Food Insecurity Rate** map overlays the **Pantry Count per County** map, and utilzing the methods described in the [BNHR article](https://bnhr.xyz/2019/09/15/bivariate-choropleths-in-qgis.html). 
 
 <img src="images/Food_Insecurity/PantryCount_PerCounty.PNG"/>
 
+Next we follow the same steps as the previous map. 
+
+### Symbology
+
+In order to select an appropriate colorway, I utilized the [Observable Bivariate Color Generator](https://observablehq.com/@benjaminadk/bivariate-choropleth-color-generator) which allowed me to select a color palette that fell in line with all map viewing needs, but was still slightly adjusted to my taste. 
+
 <img src="images/Food_Insecurity/Presentation1.PNG"/>
+
+In order to select an appropriate colorway, I utilized the [Observable Bivariate Color Generator](https://observablehq.com/@benjaminadk/bivariate-choropleth-color-generator) which allowed me to select a color pallette that 
 
 The second variable displayed is the number of institutions in MD that do have a food pantry.
 
-<img src="images/Food_Insecurity/JHUpantrysites.PNG"/>
+**Reminder:** When creating the bivariate map, the legend creator plug in does not create labels so make sure to label it yourself!
+
+## [Interactive Online WebMap: Maryland Higher Education Institutions Food Pantry Resource Map](https://umbc-ges.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=413ce4d02e464320b20dcee1798c0879) 
+
+If you'd like, you can download the plug-in **qgis2web** utilizing [this tutorial](https://www.qgistutorials.com/en/docs/web_mapping_with_qgis2web.html) which provides excellent [step-by-step instructions](https://www.qgistutorials.com/en/docs/web_mapping_with_qgis2web.html). I utilized ArcGIS online in the end to better suit my needs.
+
+There three main subcategories that divide the legend, the first being Institutions with Food Pantries further divided by Institution Type, so that students can more easily identify their campus. Next are the Institutions with No Food Pantry which are important to list so that they can find food resources available near their campus that they can access if it is not available on their campus. 
 
 <img src="images/Food_Insecurity/institutiontypes.PNG"/>
+
+This map utilizes the created pantry dataset and the ArcGIS online MD Food Bank Locations so that students can easily find food resources both on and off their campus, especially for those students who may not have access to those resources currently. The images below represent the seperate layers that I utilized, along with the dataset from [Johns Hopkins Maryland Food System Map](https://mdfoodsystemmap.org/) that you can check out [here!](https://gis.mdfoodsystemmap.org/map/#x=-8600388.674532639&y=4687424.322558925&z=6&ll=2,3)
+
+Map with JHU Dataset.
+
+<img src="images/Food_Insecurity/JHUpantrysites.PNG"/>
+
+### [Maryland Higher Education Institutions Food Pantry Resource Map](https://umbc-ges.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=413ce4d02e464320b20dcee1798c0879)
+[<img src="images/Food_Insecurity/onlinemap.JPG"/>](https://umbc-ges.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=413ce4d02e464320b20dcee1798c0879)
+
+
+
+
+#### Research Project: [Food Insecurity On Maryland College Campuses](https://sarahqj9.github.io/food_insecurity)
