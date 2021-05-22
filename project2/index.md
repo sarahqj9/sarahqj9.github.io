@@ -52,29 +52,33 @@ Now that we have all of our necessary data, we can add the other layers we need.
 
 Go to the **Symbology** for the *"finalpantryshapefile.shp"* and create the next two maps by changing the *Value* to *"Type"* and merging and relabeling the label name as appropriate. 
 
-<img src="images/Food_Insecurity/publicvprivate_urcad.png"/>
+<img src="images/Food_Insecurity/publicvprivate_urcad.PNG"/>
 
-<img src="images/Food_Insecurity/2yearv4year_urcad.png"/>
+<img src="images/Food_Insecurity/2yearv4year_urcad.PNG"/>
 
 Change the *Value* to *"Pantry"* and categorize based on the **Y** or **N** responses.
 
-<img src="images/Food_Insecurity/foodpantry_urcad.png"/>
+<img src="images/Food_Insecurity/foodpantry_urcad.PNG"/>
 
 ### Bivariate Map: Food Insecurity Rates Compared to Number of Campus Food Pantries
 
-Utilizing a bivariate map allows for the direct comparison of two different variables. Since we are hoping to find any trends between existing food insecurity rates to the amount of food resources available 
+Utilizing a bivariate map allows for the direct comparison of two different variables. Since we are hoping to find any trends between existing food insecurity rates to the amount of food resources available to identify areas that may be underserved. 
 
-<img src="images/Food_Insecurity/justfoodinsecurity.png"/>
+Following this [BNHR Bivariate choropleth maps in QGIS
+
+Add the *"% Food Insecure 2017"* shapefile layer and symbolize the percent values. I chose to use five classes here, but for the purposes of bivariate mapping, we are going to use 3 classes. Utilize what breaks work best for you, however I would ensure that the data you are representing does not show a bias. 
+
+<img src="images/Food_Insecurity/justfoodinsecurity.PNG"/>
 
 
 The map above illustrates the percent population of each county that experiences varying rates of Food Insecurity.
 
-<img src="images/Food_Insecurity/PantryCount_PerCounty.png"/>
+<img src="images/Food_Insecurity/PantryCount_PerCounty.PNG"/>
 
-<img src="images/Food_Insecurity/Presentation1.png"/>
+<img src="images/Food_Insecurity/Presentation1.PNG"/>
 
 The second variable displayed is the number of institutions in MD that do have a food pantry.
 
-<img src="images/Food_Insecurity/JHUpantrysites.png"/>
+<img src="images/Food_Insecurity/JHUpantrysites.PNG"/>
 
-<img src="images/Food_Insecurity/institutiontypes.png"/>
+<img src="images/Food_Insecurity/institutiontypes.PNG"/>
