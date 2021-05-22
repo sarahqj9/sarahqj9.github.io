@@ -2,7 +2,7 @@
 
 # Food Insecurity Map Breakdown
 
-This page 
+This page walkthroughs the steps and processes required to complete the map products utilized in my ["Food Insecurity On Maryland College Campuses"]((https://sarahqj9.github.io/food_insecurity), that focuses on addressing the increasing rates of students who experience food insecurity at one point their educational career. I am a Maryland resident, and wanted to address this issue on a local scale, so focused on the institutions within my state, and what food resources or pantries they may have available on their campus, what those pantries look like and how they operate. The maps on that site are just one part of a larger research project where I take a look at disparities between resources on different types of institutions, along with surveying campus food pantry directors on how their pantries run along with how the onset of the COVID-19 pandemic affected their ability to provide resources, how they had to adapt, and what their pantries look like now to continue to serve the needs of their community.  
 
 ## Gathering the Data 
 
